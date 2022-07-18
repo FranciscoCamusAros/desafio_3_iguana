@@ -1,0 +1,120 @@
+/*Primero que todo, utilicé el estilo de letra Raleway de google fonts 
+que se espicificaba en la maqueta, utilicé un fondo negro y las letras color blanco.*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/*Para el header ocupé el tamaño de letra 50 indicado en la maqueta.*/
+
+header h1{
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+}
+
+/*Para la foto de portada, ocupé la imagen señalda en la maqueta y utilicé los códigos enseñados en clases.*/
+
+.foto_portada{
+  background-image: url(../imgs/bg-header.jpg);
+  height: 727px;
+  background-size: cover;
+}
+
+/*Para la sección principal utilicé el 80% de la pantalla con una altura de 348px dispuesta 
+por la maqueta y un margen de 150px también por lo dispuesto en la maqueta. Lo floté hacia 
+la izquierda.*/
+
+.seccion_principal{
+  width: 80%;
+  height: 348px;
+  margin: auto 150px;
+  overflow: auto;
+}
+ 
+.principal{
+  float: left;
+}
+
+/*Respecto al párrafo utilizado ocupé el ancho dispuesto por la maqueta y un padding para
+alinearlo con la imagen para igual lo que estaba en la maqueta. Respecto a la imagen, utilicé
+las medidas dispuestas por la maqueta, con un margen de 100px hacia la izquierda para tener un 
+espacio con el párrafo.*/
+
+.seccion_principal p{
+  width: 475px;
+  padding: 90px 0px;
+}
+
+.seccion_principal img{
+  padding: 50px;
+  width: 399px;
+  height: 237px;
+  margin-left: 100px;
+}
+
+/*Para las características utilicé lo enseñado en la clase para hacer una sección,
+utlizando los colores y tamaños que se disponían en la maqueta y esta vez utilizando
+la propiedad display*/
+
+.caracteristicas{
+  height: 348px;
+  text-align: center;
+  border: solid 0px #333;
+  background-color: #1E1A13;
+}
+
+.caracteristicas i{
+  display: block;
+  padding: 0.5em;
+}
+
+.caracteristicas_fotos{
+  width: 20%;
+  padding: 1%;
+  display: inline-block;
+}
+
+.caracteristicas h3{
+  font-size: 40px;  
+  padding-top: 30px;
+  text-align: center;
+}
+
+.caracteristicas p{
+  font-size: 25px;
+}
+
+/*Para la galería utilicé los tamaños de imagen que se señalaron en la maqueta
+y los elementos los ubiqué horizontalmente utilizando la propiedad float. 
+Utilicé la altura de 348px dispuesta en la maqueta.*/
+
+.galeria{
+  height: 348px;
+  margin: auto 150px;
+  overflow: auto;
+}
+
+.fotos_galeria{
+  float: left; 
+  width: 32%;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.fotos_galeria img{
+  width: 316px;
+  height: 202px;
+}
+
+/*Por último, para el footer ocupé el tamaño de la letra y el 
+color de fondo utilizado en la maqueta.*/
+
+footer{
+  background-color: #1E1A13;
+  line-height: 80px;
+  text-align: center;
+  font-size: 20px;
+}
